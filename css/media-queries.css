@@ -12,6 +12,11 @@
         max-width: 60%;
         margin: 10px auto;
     }
+    .row-4
+    {
+        margin-bottom: 50px;
+    }
+    
     
 }
 
@@ -35,5 +40,14 @@
     .about-page .page-1
     {
     font-size: 34px;
+    }
+    .some-title p
+    {
+    font-size: 26px;
+    margin: 60px auto 30px;
+    }
+    .row-4
+    {
+        margin-bottom: 50px;
     }
 }
