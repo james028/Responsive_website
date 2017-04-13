@@ -1,0 +1,39 @@
+@media (min-width: 541px) and (max-width: 970px) {
+    .main-title p
+    {
+        font-size: 50px;
+    }
+    .about-col
+    {
+        margin: 60px auto 30px;
+    }
+    .about-text .text-2
+    {
+        max-width: 60%;
+        margin: 10px auto;
+    }
+    
+}
+
+
+@media (max-width: 540px) {
+    .main-title p
+    {
+        font-size: 24px;
+         margin: 200px auto;
+    }
+    .about-page
+    {
+        margin: 50px auto;
+    }
+    .about-page .page-2
+    {
+        font-size: 14px;
+        max-width: 96%;
+        margin: 10px auto;
+    }
+    .about-page .page-1
+    {
+    font-size: 34px;
+    }
+}

@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    
+}
+
+/* sekcja main */
+
+#main
+{
+    background-image: url('../img/main/back.jpg');
+    background-size: cover;
+    overflow: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 300px;
+    min-height:670px;
+    max-width: 100%;
+    max-height:100%;
+    margin: 0 auto;
+    display: block;
+}
+.row-1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title p
+{
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 250px auto 50px;
+}
+
+
+/* Sekcja about */
+.row-2
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.about-page
+{
+    margin: 90px auto 80px;
+    width: 650px;
+}
+.about-page .page-1
+{
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #E4D20C;
+}
+.about-page .page-2
+{
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+.about-col
+{
+    margin: 70px auto 50px;
+    text-align: center;
+}
+.about-text .text-1
+{
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.about-text .text-2
+{
+    color: #696f6f;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.about-icon
+{
+    font-size: 60px;
+}
