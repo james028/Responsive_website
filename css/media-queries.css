@@ -34,7 +34,10 @@
     {
         padding: 20px;
     }
-    
+    .contact-map img
+    {
+        height: 320px;
+    }
 }
 
 
@@ -92,5 +95,9 @@
     {
         font-size: 14px;
         width: 90%;
+    }
+    .contact-map img
+    {
+        height: 250px;
     }
 }
