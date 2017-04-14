@@ -16,7 +16,24 @@
     {
         margin-bottom: 50px;
     }
-    
+    .row-5
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-col img
+    {
+        max-width: 50%;
+        margin: 10px auto;
+    }
+    .team-title p
+    {
+        margin: 10px 60px;
+    }
+    .clients-img
+    {
+        padding: 20px;
+    }
     
 }
 
@@ -50,4 +67,26 @@
     {
         margin-bottom: 50px;
     }
+    .row-5
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-col img
+    {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+    .team-title p
+    {
+        margin: 10px 60px;
+    }
+    .clients-img
+    {
+        padding: 25px;
+        height: 50%;
+        width: 50%;
+        margin: 5px auto;
+    }
+    
 }

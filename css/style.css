@@ -121,3 +121,131 @@ body
     text-transform: uppercase;
     font-size: 18px;
 }
+
+
+
+/* Sekcja team */
+#team
+{
+    margin: 50px auto;
+}
+.team-title
+{
+    margin: 70px auto;
+}
+.team-title h3
+{
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E4D20C;
+}
+.team-title p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #696f6f;
+    line-height: 1.5em;
+}
+.row-5
+{
+    display: flex;
+}
+.team-col
+{
+    flex: 1;
+    padding: 25px;
+    text-align: center;
+}
+.team-col img
+{
+    width: 100%;
+    border-radius: 3px;
+}
+.team-text
+{
+    text-align: center;
+    margin: 20px auto;
+}
+.team-text .team-text-1
+{
+    font-size: 22px;
+    color: #000;
+}
+.team-text .team-text-2
+{
+    font-size: 17px;
+    color: #696f6f;
+}
+
+
+/* Sekcja clients */
+#clients 
+{
+    margin: 60px auto;
+}
+.team-title
+{
+    margin: 70px auto;
+}
+.team-title h3
+{
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #E4D20C;
+}
+.team-title p
+{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #696f6f;
+    line-height: 1.5em;
+}
+.clients-img
+{
+    opacity: 0.5;
+    padding: 10px;
+}
+.clients-img:hover
+{
+    opacity: 1;
+}
+.clients-img img
+{
+    width: 80%;
+}
+
+/* Sekcja clients */
+#paral-2
+{
+   margin: 40px auto; 
+    background-image: url('../img/paral/image-2.jpg'); 
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.paral-text
+{
+    font-size: 48px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    margin: 180px auto 50px;
+    font-weight: 300;
+}
+.paral-btn .btn
+{
+    border: 2px solid #E4D20C;
+    width: 240px;
+    height: 50px;
+    color: #E4D20C;
+    font-size: 20px;
+    background: transparent;
+}
+.paral-btn .btn:hover
+{
+    color: #000;
+    background: #E4D20C;
+}
