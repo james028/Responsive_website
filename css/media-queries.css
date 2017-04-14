@@ -88,5 +88,9 @@
         width: 50%;
         margin: 5px auto;
     }
-    
+    .smart-1
+    {
+        font-size: 14px;
+        width: 90%;
+    }
 }

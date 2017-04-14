@@ -182,7 +182,7 @@ body
 /* Sekcja clients */
 #clients 
 {
-    margin: 60px auto;
+    margin: 60px auto 150px;
 }
 .team-title
 {
@@ -219,7 +219,7 @@ body
 /* Sekcja clients */
 #paral-2
 {
-   margin: 40px auto; 
+    margin: 40px auto; 
     background-image: url('../img/paral/image-2.jpg'); 
     min-height: 500px; 
     background-attachment: fixed;
@@ -248,4 +248,38 @@ body
 {
     color: #000;
     background: #E4D20C;
+}
+
+
+/* sekcja smart */
+#smart
+{
+    margin: 40px auto; 
+    background-image: url('../img/paral/paral-3.jpg'); 
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.row-6
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.smart-icon
+{
+    font-size: 66px;
+    margin: 120px auto 60px;
+}
+.smart-1
+{
+    color: #E4D20C;
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+    margin: 10px auto 40px;
 }
