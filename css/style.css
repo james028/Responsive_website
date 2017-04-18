@@ -86,7 +86,10 @@ body
 {
     font-size: 60px;
 }
-
+.about-icon:hover
+{
+    color: #E4D20C;
+}
 
 /* Sekcja some-us */
 #some-us
@@ -285,6 +288,10 @@ body
 }
 
 /* Sekcja kontakt */
+#contact
+{
+    background: #FAFAFA;
+}
 .contact-map img
 {
     width: 100%;
@@ -303,4 +310,57 @@ body
 .form-1, label
 {
     display: block;
+}
+input
+{
+   width: 90%;
+    height: 40px;
+    margin: 5px auto;
+    padding-left: 10px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}
+textarea
+{
+    width: 90%;
+    height: 150px;
+    margin: 5px auto;
+    padding-left: 10px;
+    color: #000;
+    background: #fff;
+    border-radius: 5px;
+}
+.btn-2
+{
+   width: 150px;
+    height: 50px;
+    background: #E4D20C;
+}
+.contact-text-1
+{
+    color: #696F6F;
+}
+.contact-text-1 .con-1
+{
+    font-size: 18px;
+}
+.contact-text-1 .con-2
+{
+    font-size: 14px;
+}
+.contact-text-2
+{
+    margin: 30px auto 10px;
+    color: #696F6F;
+}
+.contact-text-2 h5
+{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.contact-text-2 p
+{
+    font-size: 16px;
 }
