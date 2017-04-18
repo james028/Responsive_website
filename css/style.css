@@ -219,7 +219,7 @@ body
     width: 80%;
 }
 
-/* Sekcja clients */
+/* Sekcja paral */
 #paral-2
 {
     margin: 40px auto 0; 
@@ -320,6 +320,7 @@ input
     color: #000;
     background: #fff;
     border-radius: 5px;
+    border: 1px solid #E4D20C;
 }
 textarea
 {
@@ -327,15 +328,19 @@ textarea
     height: 150px;
     margin: 5px auto;
     padding-left: 10px;
+    padding-top: 10px;
     color: #000;
     background: #fff;
     border-radius: 5px;
+    border: 1px solid #E4D20C;
 }
 .btn-2
 {
-   width: 150px;
+   width: 200px;
     height: 50px;
     background: #E4D20C;
+    border: 1px solid #E4D20C;
+    color: #fff;
 }
 .contact-text-1
 {
@@ -363,4 +368,12 @@ textarea
 .contact-text-2 p
 {
     font-size: 16px;
+}
+
+/* Sekcja projects */
+.proj-1 img
+{
+    height: 270px;
+    padding: 0;
+    margin: 0;
 }
