@@ -5,3 +5,13 @@ $(document).ready(function(){
         });                  
     });    
 });
+
+
+
+$(document).ready(function() {
+    $(".backtop").click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 2000);
+    });
+});
