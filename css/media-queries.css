@@ -1,3 +1,60 @@
+@media (max-width: 900px) {
+.toggle-nav
+    {
+        display: block;
+        height: 50px;  
+    }
+    .hamburger
+    {
+        display: block;
+        margin-right: 20px;
+        margin-top: 12px;
+        float: right;
+        transform: rotate(90deg);
+        height: 30px;
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .hambuerger:hover
+    {
+     cursor: pointer;
+    }
+    nav
+    {
+        display: block;
+        height: 50px;
+    }
+    nav li
+    {
+        display: block;
+        height: 100%;
+        background: #fff;
+        padding: 10px;
+        line-height: 50px;
+    }
+    nav a
+    {
+        width: 100%;
+        display: block;
+        padding: 0;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav li:last-child
+    {
+        border-bottom: 1,5px solid #000;
+    }
+    nav ul 
+    {
+        display: none;
+        margin-left: 0px;
+    }
+
+}
+
+
+
 @media (min-width: 541px) and (max-width: 970px) {
     .main-title p
     {
@@ -51,8 +108,33 @@
     }
 }
 
+@media (min-width: 860px) and (max-width: 1000px) {
+    .hovereffect-1 img
+    {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 565px) and (max-width: 770px) {
+    .hovereffect-1 img
+    {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .clients-img
+    {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
 
 @media (max-width: 540px) {
+    #main
+    {
+        min-height: 520px;
+    }
     .main-title p
     {
         font-size: 24px;
@@ -120,5 +202,14 @@
     .contact-col-2
     {
         margin: 80px auto 10px;
+    }
+    .paral-text
+    {
+        font-size: 30px;
+        margin: 140px auto 60px;
+    }
+    nav li
+    {
+        padding: 5px;
     }
 }
