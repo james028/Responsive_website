@@ -50,6 +50,10 @@
         display: none;
         margin-left: 0px;
     }
+    .m-mouse-icon
+    {
+       margin: 150px auto 10px; 
+    }
 
 }
 
@@ -58,7 +62,8 @@
 @media (min-width: 541px) and (max-width: 970px) {
     .main-title p
     {
-        font-size: 50px;
+        font-size: 46px;
+        margin: 200px auto 30px;
     }
     .about-col
     {
@@ -138,7 +143,7 @@
     .main-title p
     {
         font-size: 24px;
-         margin: 200px auto;
+         margin: 200px 10px;
     }
     .about-page
     {
@@ -214,6 +219,7 @@
     }
     .m-mouse-icon
     {
-        display: block;
+       margin: 10px auto 70px; 
     }
+
 }
