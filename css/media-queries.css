@@ -212,4 +212,8 @@
     {
         padding: 5px;
     }
+    .m-mouse-icon
+    {
+        display: block;
+    }
 }

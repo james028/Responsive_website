@@ -35,8 +35,117 @@ body
 {
     font-size: 90px;
     text-transform: uppercase;
+    font-weight: bold;
     color: #fff;
     margin: 250px auto 50px;
+}
+.m-mouse-icon {
+  background: none repeat scroll 0 0 rgba(0,0,0,0);
+  border: 2px solid;
+  border-color: #FFF;
+  border-radius: 15px;
+  bottom: 50px;
+  height: 44px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear
+}
+
+.m-mouse-icon:hover {
+  opacity: .3!important;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear
+}
+
+.m-mouse-icon .m-wheel {
+  -webkit-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+  -moz-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+  -o-animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+  animation: 1.7s ease 0s normal none infinite magic-mouse-icon;
+  border-radius: 50%;
+  height: 12px;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 6px;
+  right: 0;
+  width: 6px;
+  background: #FFF
+}
+
+@-moz-keyframes magic-mouse-icon {
+  0% {
+    margin-top: 6px;
+    opacity: 0
+  }
+
+  30% {
+    opacity: 1
+  }
+
+  100% {
+    margin-top: 18px;
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes magic-mouse-icon {
+  0% {
+    margin-top: 6px;
+    opacity: 0
+  }
+
+  30% {
+    opacity: 1
+  }
+
+  100% {
+    margin-top: 18px;
+    opacity: 0
+  }
+}
+
+@-o-keyframes magic-mouse-icon {
+  0% {
+    margin-top: 6px;
+    opacity: 0
+  }
+
+  30% {
+    opacity: 1
+  }
+
+  100% {
+    margin-top: 18px;
+    opacity: 0
+  }
+}
+
+@keyframes magic-mouse-icon {
+  0% {
+    margin-top: 6px;
+    opacity: 0
+  }
+
+  30% {
+    opacity: 1
+  }
+
+  100% {
+    margin-top: 18px;
+    opacity: 0
+  }
 }
 
 
