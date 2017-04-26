@@ -290,7 +290,7 @@ nav a:hover
 {
     margin: 70px auto;
 }
-.team-title h3
+.team-title .title-main
 {
     font-size: 46px;
     font-weight: bold;
@@ -340,24 +340,6 @@ nav a:hover
 #clients 
 {
     margin: 60px auto 150px;
-}
-.team-title
-{
-    margin: 70px auto;
-}
-.team-title h3
-{
-    font-size: 46px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #E4D20C;
-}
-.team-title p
-{
-    letter-spacing: 1px;
-    font-size: 18px;
-    color: #696f6f;
-    line-height: 1.5em;
 }
 .clients-img
 {
@@ -513,7 +495,7 @@ textarea
     margin: 30px auto 10px;
     color: #696F6F;
 }
-.contact-text-2 h5
+.contact-text-2 .contact-main
 {
     font-weight: bold;
     font-size: 22px;
