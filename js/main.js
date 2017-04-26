@@ -25,3 +25,19 @@ $(document).ready(function() {
         }, 1500)
     });
 });
+
+
+//menu zostajace na stronie
+
+window.addEventListener("scroll", function() {
+    
+    var top = window.scrollY;
+    var nav = document.getElementById("nv");
+    
+    if ( top > 500) {
+        nav.classList.add("stay");
+    } else {
+        nav.classList.remove("stay");
+    }
+    
+}, false);
