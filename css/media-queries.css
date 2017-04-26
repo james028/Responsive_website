@@ -32,6 +32,10 @@
         padding: 10px;
         line-height: 50px;
     }
+    nav li:last-child
+    {
+        border-bottom: 1px solid black;
+    }
     nav a
     {
         width: 100%;
@@ -40,10 +44,6 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
-    }
-    nav li:last-child
-    {
-        border-bottom: 1,5px solid #000;
     }
     nav ul 
     {
@@ -181,6 +181,7 @@
     .team-title p
     {
         margin: 10px 60px;
+        font-size: 15px;
     }
     .clients-img
     {
