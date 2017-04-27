@@ -2,7 +2,7 @@
 .toggle-nav
     {
         display: block;
-        height: 50px;  
+        height: 50px;
     }
     .hamburger
     {
@@ -45,14 +45,14 @@
         margin-left: auto;
         margin-right: auto;
     }
-    nav ul 
+    nav ul
     {
         display: none;
         margin-left: 0px;
     }
     .m-mouse-icon
     {
-       margin: 150px auto 10px; 
+       margin: 150px auto 10px;
     }
 
 }
@@ -87,6 +87,10 @@
     {
         max-width: 50%;
         margin: 10px auto;
+    }
+    .team-title .title-main
+    {
+      font-size: 40px;
     }
     .team-title p
     {
@@ -178,6 +182,10 @@
         max-width: 80%;
         margin: 10px auto;
     }
+    .team-title .title-main
+    {
+      font-size: 32px;
+    }
     .team-title p
     {
         margin: 10px 60px;
@@ -220,7 +228,7 @@
     }
     .m-mouse-icon
     {
-       margin: -50px auto 150px; 
+       margin: -50px auto 150px;
     }
 
 }
