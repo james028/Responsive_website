@@ -1,5 +1,6 @@
 
 //rozwijane menu
+
 $(document).ready(function(){
     $('.hamburger').click(function(){
        $('nav ul').slideToggle(400, function(){
@@ -9,7 +10,8 @@ $(document).ready(function(){
 });
 
 
-//back to top after click on the div
+// powrot do gory po kliknieciu na diva
+
 $(document).ready(function() {
     $(".backtop").click(function() {
         $("html, body").animate({
@@ -18,7 +20,8 @@ $(document).ready(function() {
     });
 
 
-    //click on the div and scroll down to section about me
+    //klikając na klase strona sie skroluje do sekcji about
+    
     $(".m-mouse-icon").click(function() {
         $("html, body").animate({
              scrollTop: $("#about").offset().top
